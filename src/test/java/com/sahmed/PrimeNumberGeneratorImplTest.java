@@ -3,17 +3,17 @@ package com.sahmed;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import com.sahmed.prime.PrimeNumberImpl;
+import com.sahmed.prime.PrimeNumberGeneratorImpl;
 import org.junit.Test;
 
 import java.util.List;
 
 /**
- * Unit test for prime numbers App.
+ * Unit test for prime numbers generator.
  */
-public class PrimeNumberImplTest
+public class PrimeNumberGeneratorImplTest
 {
-    private PrimeNumberImpl primeNumber = new PrimeNumberImpl();
+    private PrimeNumberGeneratorImpl primeNumber = new PrimeNumberGeneratorImpl();
 
     /**
      * 0 is not prime test

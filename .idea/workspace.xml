@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29106b7-e68a-40e2-b328-6ab7f46b3491" name="Default" comment="" />
+    <list default="true" id="a29106b7-e68a-40e2-b328-6ab7f46b3491" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sahmed/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sahmed/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberGeneratorImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sahmed/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sahmed/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sahmed/prime/PrimeNumberGenrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sahmed/prime/PrimeNumberGenrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sahmed/prime/PrimeNumberImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sahmed/PrimeNumberImplTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +22,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/prime_numbers_challenge$AppTest_oneIsNotPrime.ic" NAME="AppTest.oneIsNotPrime Coverage Results" MODIFIED="1535592792535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sahmed.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/prime_numbers_challenge$App.ic" NAME="App Coverage Results" MODIFIED="1535693019773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.sahmed.*</FILTER>
     </SUITE>
   </component>
@@ -30,8 +42,11 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sahmed/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-139">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeNumberImplTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberImplTest.java">
+      <file leaf-file-name="PrimeNumberGeneratorImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberGeneratorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="10" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,13 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeNumberImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberImpl.java">
+      <file leaf-file-name="PrimeNumberGeneratorImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberGeneratorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="188">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#337#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +95,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -86,8 +106,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberGenrator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/sahmed/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sahmed/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberGeneratorImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberGeneratorImpl.java" />
       </list>
     </option>
   </component>
@@ -104,6 +127,7 @@
     <option name="width" value="1073" />
     <option name="height" value="692" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -118,11 +142,6 @@
             <path>
               <item name="prime-numbers-challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="prime-numbers-challenge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prime-numbers-challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prime-numbers-challenge" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prime-numbers-challenge" type="b2602c69:ProjectViewProjectNode" />
@@ -186,6 +205,13 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -198,11 +224,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeNumberImplTest.validReverseRangeGenerateListTest">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sahmed.App" />
+      <module name="prime-numbers-challenge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sahmed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PrimeNumberImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberGeneratorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prime-numbers-challenge" />
       <extension name="coverage">
         <pattern>
@@ -213,7 +250,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sahmed" />
-      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberGeneratorImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -225,7 +262,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PrimeNumberImplTest.invalidRangeGenerateEmptyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberGeneratorImplTest.invalidRangeGenerateEmptyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prime-numbers-challenge" />
       <extension name="coverage">
         <pattern>
@@ -236,7 +273,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sahmed" />
-      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberGeneratorImplTest" />
       <option name="METHOD_NAME" value="invalidRangeGenerateEmptyListTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -248,7 +285,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PrimeNumberImplTest.isPrimeTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberGeneratorImplTest.validRangeGenerateListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prime-numbers-challenge" />
       <extension name="coverage">
         <pattern>
@@ -259,30 +296,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sahmed" />
-      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberImplTest" />
-      <option name="METHOD_NAME" value="isPrimeTrueTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PrimeNumberImplTest.validRangeGenerateListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="prime-numbers-challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sahmed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sahmed" />
-      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberGeneratorImplTest" />
       <option name="METHOD_NAME" value="validRangeGenerateListTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -294,7 +308,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PrimeNumberImplTest.validReverseRangeGenerateListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeNumberGeneratorImplTest.validReverseRangeGenerateListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prime-numbers-challenge" />
       <extension name="coverage">
         <pattern>
@@ -302,15 +316,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_181\jre" />
       <option name="PACKAGE_NAME" value="com.sahmed" />
-      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sahmed.PrimeNumberGeneratorImplTest" />
       <option name="METHOD_NAME" value="validReverseRangeGenerateListTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -356,19 +370,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PrimeNumberImplTest" />
-      <item itemvalue="JUnit.PrimeNumberImplTest.isPrimeTrueTest" />
-      <item itemvalue="JUnit.PrimeNumberImplTest.invalidRangeGenerateEmptyListTest" />
-      <item itemvalue="JUnit.PrimeNumberImplTest.validRangeGenerateListTest" />
-      <item itemvalue="JUnit.PrimeNumberImplTest.validReverseRangeGenerateListTest" />
+      <item itemvalue="JUnit.PrimeNumberGeneratorImplTest" />
+      <item itemvalue="JUnit.PrimeNumberGeneratorImplTest.invalidRangeGenerateEmptyListTest" />
+      <item itemvalue="JUnit.PrimeNumberGeneratorImplTest.validRangeGenerateListTest" />
+      <item itemvalue="JUnit.PrimeNumberGeneratorImplTest.validReverseRangeGenerateListTest" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeNumberImplTest.validReverseRangeGenerateListTest" />
-        <item itemvalue="JUnit.PrimeNumberImplTest.validRangeGenerateListTest" />
-        <item itemvalue="JUnit.PrimeNumberImplTest.invalidRangeGenerateEmptyListTest" />
-        <item itemvalue="JUnit.PrimeNumberImplTest" />
-        <item itemvalue="JUnit.PrimeNumberImplTest.isPrimeTrueTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PrimeNumberGeneratorImplTest" />
+        <item itemvalue="JUnit.PrimeNumberGeneratorImplTest.validRangeGenerateListTest" />
+        <item itemvalue="JUnit.PrimeNumberGeneratorImplTest.validReverseRangeGenerateListTest" />
+        <item itemvalue="JUnit.PrimeNumberGeneratorImplTest.invalidRangeGenerateEmptyListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,35 +400,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_oneIsPrimeFalseTest - 2018.08.29 at 21h 43m 28s.xml">
-      <configuration name="AppTest.oneIsPrimeFalseTest" configurationId="JUnit" />
+    <history-entry file="PrimeNumberImplTest_validReverseRangeGenerateListTest - 2018.08.30 at 23h 52m 21s.xml">
+      <configuration name="PrimeNumberImplTest.validReverseRangeGenerateListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeNumberImplTest - 2018.08.30 at 00h 08m 13s.xml">
-      <configuration name="PrimeNumberImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberImplTest_isPrimeTrueTest - 2018.08.30 at 00h 13m 16s.xml">
-      <configuration name="PrimeNumberImplTest.isPrimeTrueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberImplTest_isPrimeTrueTest - 2018.08.30 at 00h 13m 53s.xml">
-      <configuration name="PrimeNumberImplTest.isPrimeTrueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberImplTest_isPrimeTrueTest - 2018.08.30 at 00h 15m 45s.xml">
-      <configuration name="PrimeNumberImplTest.isPrimeTrueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberImplTest_isPrimeTrueTest - 2018.08.30 at 00h 16m 53s.xml">
-      <configuration name="PrimeNumberImplTest.isPrimeTrueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberImplTest - 2018.08.30 at 12h 51m 16s.xml">
-      <configuration name="PrimeNumberImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberImplTest_invalidRangeGenerateEmptyListTest - 2018.08.30 at 13h 02m 41s.xml">
+    <history-entry file="PrimeNumberImplTest_invalidRangeGenerateEmptyListTest - 2018.08.31 at 00h 37m 27s.xml">
       <configuration name="PrimeNumberImplTest.invalidRangeGenerateEmptyListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeNumberImplTest_invalidRangeGenerateEmptyListTest - 2018.08.30 at 13h 04m 36s.xml">
-      <configuration name="PrimeNumberImplTest.invalidRangeGenerateEmptyListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeNumberImplTest_validRangeGenerateListTest - 2018.08.30 at 23h 50m 57s.xml">
+    <history-entry file="PrimeNumberImplTest_validRangeGenerateListTest - 2018.08.31 at 00h 37m 37s.xml">
       <configuration name="PrimeNumberImplTest.validRangeGenerateListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberImplTest_validRangeGenerateListTest - 2018.08.31 at 00h 40m 33s.xml">
+      <configuration name="PrimeNumberImplTest.validRangeGenerateListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberImplTest_validRangeGenerateListTest - 2018.08.31 at 00h 40m 58s.xml">
+      <configuration name="PrimeNumberImplTest.validRangeGenerateListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberImplTest_validReverseRangeGenerateListTest - 2018.08.31 at 00h 41m 14s.xml">
+      <configuration name="PrimeNumberImplTest.validReverseRangeGenerateListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberGeneratorImplTest_validRangeGenerateListTest - 2018.08.31 at 00h 56m 37s.xml">
+      <configuration name="PrimeNumberGeneratorImplTest.validRangeGenerateListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberGeneratorImplTest - 2018.08.31 at 01h 00m 16s.xml">
+      <configuration name="PrimeNumberGeneratorImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberGeneratorImplTest - 2018.08.31 at 01h 22m 04s.xml">
+      <configuration name="PrimeNumberGeneratorImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeNumberGeneratorImplTest - 2018.08.31 at 01h 23m 17s.xml">
+      <configuration name="PrimeNumberGeneratorImplTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -423,19 +437,19 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.38628158" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49952698" weight="0.38628158" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.500473" side_tool="true" weight="0.38628158" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32851985" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32923368" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49952698" visible="true" weight="0.32851985" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.24408704" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27530748" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32166508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -457,12 +471,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberImplTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberGeneratorImplTest.java</url>
           <line>21</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberGeneratorImplTest.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberGeneratorImplTest.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -480,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sahmed/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -494,22 +513,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberGeneratorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" lean-forward="true" selection-start-line="10" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sahmed/PrimeNumberImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sahmed/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        <state relative-caret-position="-139">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sahmed/prime/PrimeNumberGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -517,8 +547,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>prime-numbers-challenge</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
